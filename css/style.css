@@ -1,0 +1,404 @@
+/* ----------------------- */
+/* base
+/* ----------------------- */
+
+html{
+    font-size: 62.5%;
+  }
+  body{
+    font-size: 1.6rem;
+    letter-spacing: .05em;
+    font-family: 'Noto Serif','Noto Serif JP', serif;
+  }
+  img,svg{
+    max-width: 100%;
+    vertical-align: bottom;
+  }
+  a{
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover{
+    opacity: .7;
+    transition: .3s;
+  }
+
+  
+  
+  .section-wrapper{
+    padding: 100px 0;
+  }
+  .flex-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .content-wrapper{
+    max-width: 1100px;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+  .section-title{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #977c7c;
+    text-align: center;
+  }
+
+
+  .pc-only{
+    display:block;
+  }
+  .sp-only{
+    display:none;
+  }
+
+ .inner{
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+
+/* ----------------------- */
+/* header
+/* ----------------------- */
+
+.hedar-wrapper{
+  padding: 19px 30px;
+  /* box-sizing: border-box; */
+  width: 100%;
+  transition: .3s;
+}
+
+.header-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.site-title {
+  width: 300px;
+}
+.header a:hover{
+  opacity: .7;
+  transition: .3s;
+}
+.site-title{
+  font-size: 2.6rem;
+}
+.nav-list{
+  display: flex;
+  
+}
+.nav-item{
+color: #8d7655;
+  margin-right: 30px;
+}
+.nav-item:last-of-type{
+  margin-right: 0;
+}
+
+
+/* ----------------------- */
+/* FV
+/* ----------------------- */
+.fv{
+  position: relative;
+}
+.fv .inner{
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+}
+.fv img{
+width: 100vw;
+}
+.main-copy{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+}
+.main-copy h2{
+  color: #fff;
+  font-size: 2.5rem;
+  letter-spacing: 2rem;
+  line-height: 5rem;
+  margin-bottom: 15px;
+}
+.no-wrap {
+  display: inline-block; /* インラインブロック化 */
+}
+.main-copy p {
+  color: #977c7c;
+  font-size: 2rem;
+  font-weight: 200;
+  font-family: 'Noto Serif JP', serif;
+  letter-spacing: 0.4rem;
+}
+
+/* ----------------------- */
+/* important
+/* ----------------------- */
+.important{
+  writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode:vertical-rl; 
+  color: #977c7c;
+}
+
+
+.important h2{
+  font-size: 2.5rem;
+  font-weight: 200;
+  line-height: 4rem;
+  margin-left: 8rem;
+}
+
+.important li{
+  text-indent: 1em;
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 10rem;
+}
+
+
+/* ----------------------- */
+/* point
+/* ----------------------- */
+.point{
+background: url(/img/main_under.jpg) no-repeat center center / 100% 100%;
+}
+
+.point-flex{
+  display: flex;
+justify-content: center;
+  margin: 0 auto;
+}
+.point-box{
+  background: #fff;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.point-box p {
+vertical-align: text-bottom;
+}
+.point-box img{
+  width: 216px;
+}
+
+/* ----------------------- */
+/* work
+/* ----------------------- */
+  .work-flex{
+    display: flex;
+  justify-content: center;
+    margin: 0 auto;
+  }
+ 
+  .work-box{
+    background: #f4f4f4;
+    margin: 20px;
+    text-align: center;
+  }
+  .work-box img{
+    padding: 20px;
+  }
+  .work-text{
+    padding-top: 20px;
+    text-align: center;
+    background-color: #fff;
+    font-family: 'Noto Serif JP', serif;
+  }
+
+/* ----------------------- */
+/* about
+/* ----------------------- */
+.about{
+  background-color: #fefbf5;
+}
+.about-inner{
+  display: flex;
+  width: 650px;
+margin: 0 auto;
+max-width: 100%;
+}
+.about-img img {
+  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+  width: 100px;       /* ※縦横を同値に */
+  height: 100px;       /* ※縦横を同値に */
+
+} 
+.about-img{
+  padding: 50px 100px;
+}
+
+
+.about h3 {
+margin-bottom: 30px;
+}
+.about p {
+  margin-bottom: 30px;
+  }
+
+/* ----------------------- */
+/* form
+/* ----------------------- */
+
+.form{
+  max-width: 700px;
+  margin: 0 auto;
+}
+input,textarea{
+  border: 1px solid #8d7655; 
+   padding: 10px;
+}
+.form-part{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+label{
+  margin-bottom: 5px;
+  color: #8d7655;
+}
+
+textarea{
+  resize: none;
+  height: 171px;
+}
+.form-send{
+  text-align: center;
+  margin-top: 50px;
+}
+.form-btn{
+  display: inline-block;
+  width: 235px;
+  padding: 20px 97px;
+  border-radius: 30px;
+
+  text-align: center;
+  color: #fff;
+  background-color: #8d7655;
+
+}
+
+.footer{
+  margin-top: 20px;
+  background-color: #8d7655;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* ↓SP版の記述 */
+@media screen and (max-width: 768px){
+  /* ----------------------- */
+  /* base_sp
+  /* ----------------------- */
+  body{
+    font-size: 1.4rem;
+  }
+  .section-wrapper{
+    padding: 60px 0;
+  }
+
+  .pc-only{
+    display:none;
+  }
+  .sp-only{
+    display:block;
+  }
+
+/* ----------------------- */
+/* FV
+/* ----------------------- */
+
+.main-copy {
+  width: 70%;
+}
+
+.main-copy h2{
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 2rem;
+  line-height: 4rem;
+  font-weight: 100;
+}
+.main-copy p {
+  color: #977c7c;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+/* ----------------------- */
+/* important
+/* ----------------------- */
+.important h2{
+  line-height: 4rem;
+  margin-left: 4rem;
+}
+
+.important li{
+  line-height: 5rem;
+  text-indent: 2em;
+}
+
+
+
+/* ----------------------- */
+/* point
+/* ----------------------- */
+
+.point-flex{
+  display: flex;
+  flex-direction:column;
+}
+.point{
+  background: url(/img/main_under_sp.jpg) no-repeat center center / 100% 100%;
+  }
+
+/* ----------------------- */
+/* work
+/* ----------------------- */
+
+.work-flex{
+  display: flex;
+  flex-direction:column;
+}
+.work-box img {
+  max-width: 100%;
+}
+
+
+/* ----------------------- */
+/* about
+/* ----------------------- */
+
+
+.about-inner{
+  display: flex;
+  flex-direction: column;
+margin: 0 auto;
+}
+
+.about-text{
+  text-align: center;
+}
+
+.about-img{
+  text-align: center;
+  vertical-align: middle;
+}
+
+}
